@@ -7,14 +7,16 @@
 ---
 
 ### 10/6/25:
-* push() Method: Adds one or more elements to the end of an array.
+*
+<ul>
+<li>push() Method: Adds one or more elements to the end of an array.</li>
 
-pop() Method: Removes the last element from an array and returns that element.
+<li>pop() Method: Removes the last element from an array and returns that element.</li>
 
-shift() Method: Removes the first element from an array and returns that element.
+<li>shift() Method: Removes the first element from an array and returns that element.</li>
 
-unshift() Method: Adds one or more elements to the beginning of an array.
-
+<li>unshift() Method: Adds one or more elements to the beginning of an array.</li>
+</ul>
 
 
 ### X/X/XX:
