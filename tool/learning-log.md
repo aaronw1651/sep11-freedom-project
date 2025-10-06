@@ -17,6 +17,10 @@
 
 <li>unshift() Method: Adds one or more elements to the beginning of an array.</li>
 </ul>
+<h1>Storing and Nesting Variables</h1>
+<h3>An array is a data structure that lets you store an ordered collection of multiple values in a single variable. For example, let colors = ["red", "green", "blue"];.</h3>
+
+<h3>You can create a multi-dimensional array by placing an array inside another array. This is useful for representing grids or tables. For example, let matrix = [[1, 2], [3, 4]];.</h3>
 
 
 ### X/X/XX:
