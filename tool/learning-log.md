@@ -24,7 +24,12 @@
 
 
 ### X/X/XX:
-* Text
+* #### Kaboom.js Tutorial: http://www.youtube.com/watch?v=iRXI6ThRJvM ( five essential tips for beginners).
+### Things i tried
+* #### Setup and Code Separation: I started by initializing a single Kaboom instance and exporting it as"k" from its own file. This allowed me to import "k" and define scenes as pure functions in separate files.
+
+
+
 
 
 <!--
