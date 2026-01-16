@@ -9,6 +9,88 @@
 * Drawing Array: instead of long"if: statements, we use an array of functions called hangmanParts.
 * Kaboom.js Primitives; Each function uses tools like drawCircle() and drawLine().
 * The Render Loop: Using the onDraw hook, a for loops fires drawing functions based on the current mistake count.
+  ``` js
+   // number of wrong guesses (0–6)
+let mistakes = 0;
+
+// cute pink hangman parts (drawn step-by-step)
+const hangmanParts = [
+  // head
+  () => {
+    drawCircle(vec2(600, 200), 20, {
+      color: rgb(255, 105, 180),
+    });
+  },
+
+  // body
+  () => {
+    drawLine(
+      vec2(600, 220),
+      vec2(600, 280),
+      {
+        width: 4,
+        color: rgb(255, 105, 180),
+      }
+    );
+  },
+
+  // left arm
+  () => {
+    drawLine(
+      vec2(600, 240),
+      vec2(570, 260),
+      {
+        width: 4,
+        color: rgb(255, 105, 180),
+      }
+    );
+  },
+
+  // right arm
+  () => {
+    drawLine(
+      vec2(600, 240),
+      vec2(630, 260),
+      {
+        width: 4,
+        color: rgb(255, 105, 180),
+      }
+    );
+  },
+
+  // left leg
+  () => {
+    drawLine(
+      vec2(600, 280),
+      vec2(580, 320),
+      {
+        width: 4,
+        color: rgb(255, 105, 180),
+      }
+    );
+  },
+
+  // right leg
+  () => {
+    drawLine(
+      vec2(600, 280),
+      vec2(620, 320),
+      {
+        width: 4,
+        color: rgb(255, 105, 180),
+      }
+    );
+  },
+];
+
+// draw hangman based on mistakes
+onDraw(() => {
+  for (let i = 0; i < mistakes; i++) {
+    hangmanParts[i]();
+  }
+});
+```
+```
 
 
 [Previous](entry01.md) | [Next](entry03.md)
