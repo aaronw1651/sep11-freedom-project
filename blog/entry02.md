@@ -9,9 +9,8 @@
 * Drawing Array: instead of long"if: statements, we use an array of functions called hangmanParts.
 * Kaboom.js Primitives; Each function uses tools like drawCircle() and drawLine().
 * The Render Loop: Using the onDraw hook, a for loops fires drawing functions based on the current mistake count.
-  
+```js  
    // number of wrong guesses (0–6)
-  ```
 let mistakes = 0;
 
 // cute pink hangman parts (drawn step-by-step)
@@ -90,7 +89,13 @@ onDraw(() => {
     hangmanParts[i]();
   }
 });
+```
+#### EDP
+I realized I am currently in stage 2 or 3 of the design process
+* Ive spen time testing code and researching what tools I actually need.
+* Intially, I thought I was further along, but staying the research phase with my partner ensures we build the reight features for my project.
 
+   
 
 
 
