@@ -91,9 +91,15 @@ onDraw(() => {
 });
 ```
 #### EDP
-I realized I am currently in stage 2 or 3 of the design process
+##### I realized I am currently in stage 2 or 3 of the design process
 * Ive spen time testing code and researching what tools I actually need.
 * Intially, I thought I was further along, but staying the research phase with my partner ensures we build the reight features for my project.
+
+  #### Essential Skils Gained
+  ###### Beyond writing code, this project has helped me sharpen several "real-world" skilss;\:
+  * Using Youtube - finding the right turtorials is hard, and I had to filter out videos from before i was born, to make sure it works with current Kaboom. 
+  * My Partner and I come together weekly to discuss what we learned in the previous days, so we can build off, of eachother.
+    #Sources - i've gone through video such as - [this](https://www.youtube.com/@JSLegendDev) and videos [such as ](https://youtu.be/wy_fSStEgMs?si=zPv89-0IR__Wcr2C)
 
    
 
