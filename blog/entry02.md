@@ -9,8 +9,9 @@
 * Drawing Array: instead of long"if: statements, we use an array of functions called hangmanParts.
 * Kaboom.js Primitives; Each function uses tools like drawCircle() and drawLine().
 * The Render Loop: Using the onDraw hook, a for loops fires drawing functions based on the current mistake count.
-  ``` js
+  
    // number of wrong guesses (0–6)
+  ```
 let mistakes = 0;
 
 // cute pink hangman parts (drawn step-by-step)
@@ -89,8 +90,9 @@ onDraw(() => {
     hangmanParts[i]();
   }
 });
-```
-```
+
+
+
 
 
 [Previous](entry01.md) | [Next](entry03.md)
