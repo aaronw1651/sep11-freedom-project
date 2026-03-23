@@ -67,6 +67,9 @@
   *Animation Depth: Do I want the character to stay on the board at all times, or do I need "off-board" walking animations?
   ## What's next
   * Looking forward to add more depth to my draft of my project, so i have concrete idea of the projection going forward, maybe retweak certain things.
+ 
+### 3/23
+* Currently i watch a video about setting up camera systems, with using Kaboom.
     
 <!--
 * Links you used today (websites, videos, etc)
